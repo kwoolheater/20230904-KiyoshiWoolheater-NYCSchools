@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		9F0A3C1A2AA64FB100028E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A3C192AA64FB100028E8D /* AppDelegate.swift */; };
 		9F0A3C1C2AA64FB100028E8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A3C1B2AA64FB100028E8D /* SceneDelegate.swift */; };
-		9F0A3C1E2AA64FB100028E8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A3C1D2AA64FB100028E8D /* ViewController.swift */; };
+		9F0A3C1E2AA64FB100028E8D /* DirectoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A3C1D2AA64FB100028E8D /* DirectoryTableViewController.swift */; };
 		9F0A3C212AA64FB100028E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0A3C1F2AA64FB100028E8D /* Main.storyboard */; };
 		9F0A3C232AA64FB400028E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0A3C222AA64FB400028E8D /* Assets.xcassets */; };
 		9F0A3C262AA64FB400028E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0A3C242AA64FB400028E8D /* LaunchScreen.storyboard */; };
 		9F0A3C312AA64FB400028E8D /* _0230904_KiyoshiWoolheater_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A3C302AA64FB400028E8D /* _0230904_KiyoshiWoolheater_NYCSchoolsTests.swift */; };
 		9F0A3C3B2AA64FB400028E8D /* _0230904_KiyoshiWoolheater_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A3C3A2AA64FB400028E8D /* _0230904_KiyoshiWoolheater_NYCSchoolsUITests.swift */; };
 		9F0A3C3D2AA64FB400028E8D /* _0230904_KiyoshiWoolheater_NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A3C3C2AA64FB400028E8D /* _0230904_KiyoshiWoolheater_NYCSchoolsUITestsLaunchTests.swift */; };
+		9F0A3C4A2AA650F700028E8D /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A3C492AA650F700028E8D /* Networking.swift */; };
+		9F0A3C4C2AA655F600028E8D /* DirectoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A3C4B2AA655F600028E8D /* DirectoryViewModel.swift */; };
+		9F0A3C4E2AA65D7000028E8D /* DirectoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A3C4D2AA65D7000028E8D /* DirectoryModel.swift */; };
+		9F0A3C522AA7BCD600028E8D /* SchoolNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A3C512AA7BCD600028E8D /* SchoolNameCell.swift */; };
+		9F0A3C542AA7BE9800028E8D /* SchoolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A3C532AA7BE9800028E8D /* SchoolDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 		9F0A3C162AA64FB100028E8D /* 20230904-KiyoshiWoolheater-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20230904-KiyoshiWoolheater-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0A3C192AA64FB100028E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F0A3C1B2AA64FB100028E8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F0A3C1D2AA64FB100028E8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F0A3C1D2AA64FB100028E8D /* DirectoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryTableViewController.swift; sourceTree = "<group>"; };
 		9F0A3C202AA64FB100028E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F0A3C222AA64FB400028E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F0A3C252AA64FB400028E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		9F0A3C362AA64FB400028E8D /* 20230904-KiyoshiWoolheater-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230904-KiyoshiWoolheater-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0A3C3A2AA64FB400028E8D /* _0230904_KiyoshiWoolheater_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230904_KiyoshiWoolheater_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		9F0A3C3C2AA64FB400028E8D /* _0230904_KiyoshiWoolheater_NYCSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230904_KiyoshiWoolheater_NYCSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F0A3C492AA650F700028E8D /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		9F0A3C4B2AA655F600028E8D /* DirectoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryViewModel.swift; sourceTree = "<group>"; };
+		9F0A3C4D2AA65D7000028E8D /* DirectoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryModel.swift; sourceTree = "<group>"; };
+		9F0A3C512AA7BCD600028E8D /* SchoolNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolNameCell.swift; sourceTree = "<group>"; };
+		9F0A3C532AA7BE9800028E8D /* SchoolDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,12 @@
 			children = (
 				9F0A3C192AA64FB100028E8D /* AppDelegate.swift */,
 				9F0A3C1B2AA64FB100028E8D /* SceneDelegate.swift */,
-				9F0A3C1D2AA64FB100028E8D /* ViewController.swift */,
+				9F0A3C1D2AA64FB100028E8D /* DirectoryTableViewController.swift */,
+				9F0A3C532AA7BE9800028E8D /* SchoolDetailViewController.swift */,
+				9F0A3C4B2AA655F600028E8D /* DirectoryViewModel.swift */,
+				9F0A3C4D2AA65D7000028E8D /* DirectoryModel.swift */,
+				9F0A3C512AA7BCD600028E8D /* SchoolNameCell.swift */,
+				9F0A3C492AA650F700028E8D /* Networking.swift */,
 				9F0A3C1F2AA64FB100028E8D /* Main.storyboard */,
 				9F0A3C222AA64FB400028E8D /* Assets.xcassets */,
 				9F0A3C242AA64FB400028E8D /* LaunchScreen.storyboard */,
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F0A3C1E2AA64FB100028E8D /* ViewController.swift in Sources */,
+				9F0A3C1E2AA64FB100028E8D /* DirectoryTableViewController.swift in Sources */,
 				9F0A3C1A2AA64FB100028E8D /* AppDelegate.swift in Sources */,
+				9F0A3C542AA7BE9800028E8D /* SchoolDetailViewController.swift in Sources */,
 				9F0A3C1C2AA64FB100028E8D /* SceneDelegate.swift in Sources */,
+				9F0A3C522AA7BCD600028E8D /* SchoolNameCell.swift in Sources */,
+				9F0A3C4E2AA65D7000028E8D /* DirectoryModel.swift in Sources */,
+				9F0A3C4C2AA655F600028E8D /* DirectoryViewModel.swift in Sources */,
+				9F0A3C4A2AA650F700028E8D /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
